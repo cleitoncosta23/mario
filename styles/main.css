@@ -1,5 +1,6 @@
 main{
     flex: 1;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,7 +15,7 @@ main{
 }
 
 .main_info p {
-    font-size: 17px;
+    font-size: 18px;
     margin: 20px 0 28px;
 }
 
@@ -24,7 +25,7 @@ main{
 
 }
 
-.main_info div .main_info div button {
+.main_info div a, .main_info div button {
     width: 100%;
     padding: 10px 0;
     border-radius: 3px;
